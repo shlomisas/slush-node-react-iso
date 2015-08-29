@@ -1,0 +1,27 @@
+{ "name": "slush-node-react-iso",
+  "version": "0.0.1",
+  "description": "My slush generator for NodeJS + ReactJS + Flux with Isomorphic JavaScript support",
+  "main": "slushfile.js",
+  "keywords": [
+    "slushgenerator",
+    "node",
+    "nodejs",
+    "react",
+    "reactjs",
+    "isomorphic"
+  ],
+  "dependencies": {
+    "gulp":    "^3.5.6",
+    "gulp-template": "~0.1.1",
+    "gulp-install": "~0.1.1",
+    "gulp-conflict": "~0.1.1",
+    "gulp-rename": "~1.2.0",
+    "inquirer": "~0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shlomisas/slush-node-react-iso"
+  },
+  "author": "Shlomi Sasson",
+  "license": "MIT"
+}

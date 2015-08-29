@@ -1,0 +1,7 @@
+.idea/*
+dist/*
+logs/*
+node_modules/*
+config.json
+*.orig
+../assets/uploads/*

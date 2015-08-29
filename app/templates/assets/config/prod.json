@@ -1,0 +1,27 @@
+{
+  "env": {
+	"name": "prod"
+  },
+  "project": {
+	"host": "<%=appProdDomain%>",
+	"cookie": {
+	  "prefix": "<%=appCookiePrefixProd%>"
+	}
+  },
+  "http":{
+	"port": "<%=appPortsHttpProd%>"
+  },
+  "mongodb": {
+	"local": {
+	  "host": "<%=appMongoHostProd%>",
+	  "port": <%=appMongoPortProd%>,
+	  "username": "<%=appMongoUsernameProd%>",
+	  "password": "<%=appMongoPasswordProd%>",
+	  "db": "<%=appMongoDbNameProd%>"
+	}
+  },
+  "redis": {
+	"host": "<%=appRedisHostProd%>",
+	"port": <%=appRedisPostProd%>
+  }
+}

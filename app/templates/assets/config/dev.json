@@ -1,0 +1,27 @@
+{
+  "env": {
+	"name": "dev"
+  },
+  "project": {
+	"host": "<%=appDevDomain%>",
+	"cookie": {
+	  "prefix": "<%=appCookiePrefixDev%>"
+	}
+  },
+  "http":{
+	"port": "<%=appPortsHttpDev%>"
+  },
+  "mongodb": {
+	"local": {
+	  "host": "<%=appMongoHostDev%>",
+	  "port": <%=appMongoPortDev%>,
+	  "username": "<%=appMongoUsernameDev%>",
+	  "password": "<%=appMongoPasswordDev%>",
+	  "db": "<%=appMongoDbNameDev%>"
+	}
+  },
+  "redis": {
+	"host": "<%=appRedisHostDev%>",
+	"port": <%=appRedisPostDev%>
+  }
+}

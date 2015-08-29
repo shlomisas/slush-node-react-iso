@@ -1,0 +1,22 @@
+{
+    "project": {
+        "projectName": "<%=appName%>",
+        "author": "<%=appAuthor%>",
+        "description": "<%=appHeadDescription%>",
+        "keywords": "<%=appHeadKeywords%>"
+    },
+    "redis": {
+        "sessions":{
+            "prefix": "<%=appRedisSessionPrefix%>",
+            "secret": "<%=appRedisSessionSecret%>",
+            "cookie": {
+                "name": "<%=appRedisSessionCookieName%>",
+                "domain": "<%=appRedisSessionCookieDomain%>"
+            }
+        },
+        "databases": {
+            "default": 0,
+            "sessions": 1
+        }
+    }
+}
