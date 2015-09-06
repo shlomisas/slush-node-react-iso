@@ -1,5 +1,5 @@
 { "name": "slush-node-react-iso",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My slush generator for NodeJS + ReactJS + Flux with Isomorphic JavaScript support",
   "main": "slushfile.js",
   "keywords": [
