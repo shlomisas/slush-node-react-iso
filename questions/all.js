@@ -35,8 +35,8 @@ module.exports = [
     {type: 'input', name: 'appHeadDescription', message: 'Enter app HTML head description'},
     {type: 'input', name: 'appHeadKeywords', message: 'Enter app HTML head keywords'},
 
-    {type: 'input', name: 'appPortsNginxProd', message: 'Enter app domain (prod)', default: '80'},
-    {type: 'input', name: 'appPortsNginxDev', message: 'Enter app domain (dev)', default: '8080'},
+    {type: 'input', name: 'appPortsNginxProd', message: 'Enter app nginx port (prod)', default: '80'},
+    {type: 'input', name: 'appPortsNginxDev', message: 'Enter app nginx port (dev)', default: '8080'},
 
     {type: 'input', name: 'appPortsHttpProd', message: 'Enter app http port (prod)', validate: validator.require},
     {type: 'input', name: 'appPortsHttpDev', message: 'Enter app http port (dev)', validate: validator.require},

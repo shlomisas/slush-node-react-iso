@@ -17,7 +17,7 @@ Contain the following major frameworks/components:
 
 After clone/download this repo run:
 
-- `npm link . (temporary)`      
+- `npm install -g slush-node-react-iso`      
 - `slush node-react-iso`
 
 After answer all questions, and install all NPM's run:  
